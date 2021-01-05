@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: black;
+}
+.container{
+    user-select: none;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 450px;
+    text-align: center;
+    border-radius: 5px;
+    color: #b3b8cd;
+    background: white;
+}
+.cover-img{
+    background: url('BG.jpg');
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: #292343;
+    margin: 93px 0 0 -175px;
+    padding: 7px;
+}
+.profile-name{
+    color: black;
+    margin:27px 0 0 120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.about{
+    font-size: 35px;
+    line-height: 21px;
+    color: black;
+}
+.button{
+    margin: 10px 0 40px 0;
+}
+.msg , .follow{
+    background: #292343;
+    border: 1px solid #292343;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    color: white;
+}
+.follow{
+    margin-left: 10px;
+    background: transparent;
+    color: black;
+}
+.follow:hover{
+    color: white;
+    background: #292343;
+    transition: 0.5s;
+
+}
+.container i{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container i:hover{
+    color: #292343;
+}
